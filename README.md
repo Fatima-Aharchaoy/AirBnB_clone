@@ -3,19 +3,19 @@ Project Description This is the first part of the AirBnB clone project, where we
 
 Data (python objects) generated are stored in a JSON file and can be accessed with the help of the JSON module in python
 
-Description of the command interpreter: The application's interface is similar to the Bash shell, except that it has a limited number of accepted commands that were solely defined for the use of the AirBnB website.
+Description of the command interpreter: The application's interface is similar to the Bash shell, except that it has a limited number of accepted commands that were solely defined for using the AirBnB website.
 
 This command-line interpreter serves as the front end of the web app, where users can interact with the backend, which was developed using Python OOP programming.
 
 Some of the commands available are:
 
-show create update destroy count And as part of the implementation of the command line interpreter coupled with the backend and file storage system, the folowing actions can be performed:
+show create update destroy count And as part of the implementation of the command line interpreter coupled with the backend and file storage system, the following actions can be performed:
 
-Creating new objects (ex: a new User or a new Place) Retrieving an object from a file, a database etc… Doing operations on objects (count, compute stats, etc…) Updating attributes of an object Destroying an object How to start it These instructions will get you a copy of the project up and running on your local machine (Linux distro) for development and testing purposes.
+Creating new objects (e.g., a new User or a new Place), Retrieving an object from a file, a database, etc.… Performing operations on objects (count, compute stats, etc.…), Updating an object's attributes, and Destroying an object. How to start it: These instructions will get you a copy of the project up and running on your local machine (Linux distro) for development and testing purposes.
 
 Installing You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
 
-git clone https://github.com/jzamora5/AirBnB_clone.git After cloning the repository you will have a folder called AirBnB_clone. In here there will be several files that allow the program to work.
+git clone https://github.com/Ibrahimkhal1/AirBnB_clone.git After cloning the repository you will have a folder called AirBnB_clone. In here there will be several files that allow the program to work.
 
 /console.py : The main executable of the project, the command interpreter.
 
@@ -84,4 +84,7 @@ all Prints all string representation of all instances based or not on the class 
 
 update Updates an instance based on the class name and id by adding or updating attribute (saves the changes into a JSON file). Usage update "" ---or--- .update(, , ) --or-- .update(, )
 
-count Retrieve the number of instances of a class. Usage .count() Authors #Ibrahim Halidu #Fatima AHARCHAOY
+count Retrieve the number of instances of a class. Usage .count() 
+#Authors
+#Ibrahim Halidu
+#Fatima AHARCHAOY
